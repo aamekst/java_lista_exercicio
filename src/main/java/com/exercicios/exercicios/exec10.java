@@ -18,8 +18,7 @@ public class exec10 {
 
 
         System.out.printf("Cálculo da parede: %.2f m²%n", calculo_parede);
-        System.out.printf("Você precisará de %.2f litros%n", qtd_tinta);
-
+        System.out.println(String.format("Você precisará de %.2f litros", qtd_tinta));
         scanner.close();
     }
 
